@@ -6,7 +6,7 @@ ngpu   = 2
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 #dir
-data_root = ['/home/lianjz/Desktop/work/video_denoise/dataset/', '/home/lianjz/Desktop/work/video_denoise/dataset/']
+data_root = ['/home/Desktop/work/video_denoise/dataset/', '/home/Desktop/work/video_denoise/dataset/']
 output_root = './results/'
 
 image_height                    = 128
